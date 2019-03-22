@@ -6,7 +6,7 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function logshout(string) {
-  const spy = expect.sppyon(console.log()).andCallThrough()
+  const spy = expect.spyon(console.log()).andCallThrough()
   shout(string)
   return string.toUpperCase()
   console.log.restore()
