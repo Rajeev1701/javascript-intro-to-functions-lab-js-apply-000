@@ -1,3 +1,3 @@
-Function shout {
+Function shout(String) {
   return String.toUpperCase()
 }
